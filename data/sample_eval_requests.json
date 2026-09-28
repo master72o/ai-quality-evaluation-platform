@@ -1,0 +1,19 @@
+{
+  "platform_version": "1.0.0",
+  "environment": "production",
+  "pillars_enabled": [
+    "Response_Quality",
+    "RAG_Evaluation",
+    "Prompt_Regression",
+    "Safety_RedTeam",
+    "Model_Benchmark",
+    "Reward_Calibration",
+    "Agent_Trajectory"
+  ],
+  "thresholds": {
+    "min_overall_health_score": 0.85,
+    "max_critical_safety_breaches": 0,
+    "min_rag_ndcg": 0.90,
+    "min_agent_task_success": 0.90
+  }
+}
